@@ -6,6 +6,6 @@ Welcome to my collection of solved LeetCode problems! This repository contains s
 
 ![Python](https://img.shields.io/badge/Python-%233776AB?logo=python&logoColor=white)
 
-- I have upload the problems with their **Name** and **Problem Number** foreasy access.
+- I have upload the problems with their **Name** and **Problem Number** for easy access.
 - Each solution are well-optimized to beat the majority of the submissions.
 - Please feel free to reach out incase of improving my existing solutions.
