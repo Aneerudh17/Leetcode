@@ -1,4 +1,4 @@
-# LeetCode Solutions
+<h1 align = center>LeetCode Solutions</h1>
 
 Welcome to my collection of solved LeetCode problems! This repository contains solutions to a variety of LeetCode problems, implemented in Python. The goal is to build a comprehensive library of solutions that are well-documented and easy to understand.
 
