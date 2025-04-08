@@ -6,3 +6,4 @@ class Solution:
             return unique_nums[2]
         else:
             return unique_nums[0]
+        
