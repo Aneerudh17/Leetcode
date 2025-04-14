@@ -5,6 +5,7 @@ Welcome to my collection of solved LeetCode problems! This repository contains s
 ## 🐍 Python Solutions
 
 ![Python](https://img.shields.io/badge/Python-%233776AB?logo=python&logoColor=white)
+![Rust Badge](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=fff&style=plastic)
 
 - I have upload the problems with their **Name** and **Problem Number** for easy access.
 - Each solution are well-optimized to beat the majority of the submissions.
