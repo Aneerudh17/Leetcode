@@ -7,3 +7,5 @@ class Solution(object):
                 return [i,seen[complement]]
             seen[nums[i]] = i
         return []
+
+#rust solution:
