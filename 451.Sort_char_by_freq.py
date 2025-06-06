@@ -12,3 +12,23 @@ class Solution:
 
         return result
     
+'''
+javascript solution:
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var frequencySort = function(s) {
+    const freqMap = new Map();
+    for (let char of s) {
+        freqMap.set(char, (freqMap.get(char) || 0) + 1);
+    }
+    const sortedChars = Array.from(freqMap.entries()).sort((a, b) => b[1] - a[1]);
+    let result = '';
+    for (let [char, count] of sortedChars) {
+        result += char.repeat(count);
+    }
+    return result;
+    
+};
+'''
