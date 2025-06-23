@@ -19,3 +19,34 @@ class Solution:
                 return True
             
         return False
+    
+'''
+js solution:
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+var isMonotonic = function(nums) {
+    const n = nums.length;
+        if (n === 1) {
+            return true;
+        }
+        for (let i = 1; i < n; i++) {
+            if (nums[i] < nums[i - 1]) {
+                break;
+            }
+            if (i === n - 1) {
+                return true;
+            }
+        }
+        for (let i = 1; i < n; i++) {
+            if (nums[i] > nums[i - 1]) {
+                break;
+            }
+            if (i === n - 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+'''
