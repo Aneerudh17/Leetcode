@@ -19,3 +19,31 @@ class Solution:
             
         return result
 #not the most efficient solutiton but easier to understand.
+
+
+'''
+js solution
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var permuteUnique = function(nums) {
+    if (nums.length === 0){
+        return [[]];
+    }
+    
+    let result = [];
+
+    for(let i = 0; i < nums.length; i++){
+        let current = nums[i];
+        let remaining = nums.slice(0,i).concat(nums.slice(i+1));
+        let perms = permuteUnique(remaining);
+        for (perm of perms){
+            if (!perm in result){
+                result.push([current].concat(perm));
+            }
+        }
+    }
+    return result;
+};
+'''
